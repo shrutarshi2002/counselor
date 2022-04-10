@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feel well blogs</title>
-    <link rel="icon" href="images/favicon.ico">
+    <title>Feel Well Web App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/e87d687bba.js"></script>
+      <!--    Bootstrap js files-->
+      <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link href="css/happyspace.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico">
+
 
 </head>
 <body>
@@ -20,14 +29,14 @@
 
 <header class="header">
 
-    <a href="index.html" class="logo"><img src="images/feel-well.gif" width=80px></a>
+    <a href="index.html" class="logo"><img src="images/feel-well.gif" width= 80px></a>
 
     <nav class="navbar">
         <a href="index.html">home</a>
         <a href="blog.html">blog</a>
         <a href="happyspace.html">PlanRelaxation</a>
-        <a href="index.html#about">about</a>
-        <a href="index.html#contact">contact</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
     </nav>
 
     <div id="menu-btn" class="fas fa-bars"></div>
@@ -36,65 +45,135 @@
 
 <!-- header section ends -->
 
-<!-- info section starts  -->
+<!-- home section starts  -->
 
 <section class="home" id="home">
 
     <div class="content">
-        <h3>Plan Relaxation</h3>
-        <p>Learn about Mental Health</p>
+      <h2>Welcome Thinkers!</h2>
+        <h3>Dream Plan Do</h3>
+        <p>“Take your time healing, as long as you want. Nobody else knows what you’ve been through. How could they know how long it will take to heal you?” — Abertoli</p>
+        <a href="#" class="btn">Explore</a>
     </div>
 
     <div class="image">
-        <iframe src="https://giphy.com/embed/17mGDCFnG3592dnoHa" width="309" height="309" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <img  src="images/plan.gif" alt="">
+    </div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+
+</section>
+
+<<section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <i class="fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+
+        </div>
+
+        <div class="col-lg-4">
+          <i class="fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+
+        </div>
+
+        <div class="col-lg-4">
+          <i class="fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+<!-- about section starts  -->
+
+
+<!-- about section ends -->
+
+
+
+
+
+<!-- reivew section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Visitor's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-1.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui rerum ducimus, fuga numquam itaque modi magnam officiis obcaecati! Aliquid delectus aperiam harum voluptas animi unde sapiente quidem laudantium facere? Deserunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rerum explicabo illo libero modi quos laboriosam, totam eligendi. Adipisci, itaque.</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-2.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui rerum ducimus, fuga numquam itaque modi magnam officiis obcaecati! Aliquid delectus aperiam harum voluptas animi unde sapiente quidem laudantium facere? Deserunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rerum explicabo illo libero modi quos laboriosam, totam eligendi. Adipisci, itaque.</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-3.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui rerum ducimus, fuga numquam itaque modi magnam officiis obcaecati! Aliquid delectus aperiam harum voluptas animi unde sapiente quidem laudantium facere? Deserunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rerum explicabo illo libero modi quos laboriosam, totam eligendi. Adipisci, itaque.</p>
+        </div>
 
     </div>
 
 </section>
 
-<!-- info section ends -->
-
-
-<!-- quotes section starts  -->
-<section class="quotes" >
-
-    <div class="write">
-        <h1>“One small crack does not mean that you are broken, it means that you were put to the test and you didn't fall apart.”  — <span class="p-colour">Linda Poindexter.</span> </h1>
-        <i class="fas fa-quote-right"></i>
-    </div>
-</section>
-<!-- quotes section ends -->
-
+<!-- reivew section ends -->
 
 <!-- contact section starts  -->
 
-<section class="space" id="space">
-
-    <h1 class="heading"> Plan <span>Relaxation!🧘</span>  </h1>
-
-    <div class="icons-container">
-        <div class="icons">
-            <a  href="quiz.html"><img src="images/quiz-img.gif" alt="" ></a>
-        </div>
-        <div class="icons">
-            <a  href="self-quiz.html"><img src="images/self-img.gif" alt="" ></a>
-        </div>
-        <div class="icons">
-            <a  href="music.html"><img src="images/music-img.gif" alt="" ></a>
-        </div>
-        <div class="icons">
-            <a  href="video.html"><img src="images/video-img.gif" alt="" ></a>
-        </div>
-        <div class="icons">
-            <a  href="https://shrutarshi2002.github.io/Meditation/"><img src="images/medi.gif" alt="" ></a>
-        </div>
-        <div class="icons">
-            <a  href="https://helpful-banoffee-60423e.netlify.app/"><img src="images/mix.gif" alt="" ></a>
-        </div>
-    </div>
-
-
-</section>
 
 <!-- contact section ends -->
 
@@ -123,7 +202,13 @@
 
     </div>
 
+    <div class="dta">
 
+      <a href="#"><button type="button" class="btn btn-outline-light btn-lg"><img class="logo1" src="images/logo.gif" alt=""></button></a>
+
+
+
+    </div>
 
 </section>
 
