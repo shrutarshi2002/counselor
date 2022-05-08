@@ -176,6 +176,19 @@
 <!-- reivew section ends -->
 
 <!-- contact section starts  -->
+    <script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+<script>
+  var alanBtnInstance = alanBtn({
+    key: "6cf1f2c56300590d13ae66c1eea9b2a72e956eca572e1d8b807a3e2338fdd0dc/stage",
+    onCommand: function (commandData) {
+      if (commandData.command === "go:back") {
+        //call client code that will react on the received command
+      }
+    },
+    rootEl: document.getElementById("alan-btn"),
+  });
+</script>
 
 
 <!-- contact section ends -->
